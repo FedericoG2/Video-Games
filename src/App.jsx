@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Card from "./components/Card";
 
+//Todo lo de aca va a un home para que quede mas limpio
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
