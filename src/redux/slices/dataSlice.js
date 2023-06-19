@@ -9,7 +9,7 @@ export const dataSlice = createSlice({
   initialState,
   reducers: {
     getData: (state, action) => {
-      const { data } = action.payload;
+      const data = action.payload;
       state.games = data;
     },
   },
@@ -17,3 +17,5 @@ export const dataSlice = createSlice({
 
 export const { getData } = dataSlice.actions;
 export default dataSlice.reducer;
+
+//slice porcion de estado   ue contiene dentro los reducers que modifican esa porcion
